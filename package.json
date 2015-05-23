@@ -1,0 +1,31 @@
+{
+  "name": "defer-decorator",
+  "description": "Function decorator to defer its call",
+  "version": "1.0.0",
+  "keywords": [
+    "decorator",
+    "defer",
+    "async",
+    "es7"
+  ],
+  "homepage": "https://github.com/shovon/defer-decorator",
+  "author": "Salehen Shovon Rahman <sal@linux.com> (http://shovon.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shovon/defer-decorator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shovon/defer-decorator/issues"
+  },
+  "license": "MIT",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha --require babelhook",
+    "build": "babel --stage 0 src/index.js > index.js"
+  },
+  "devDependencies": {
+    "babel": "^5.4.3",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5"
+  }
+}
