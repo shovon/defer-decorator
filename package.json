@@ -1,7 +1,7 @@
 {
   "name": "defer-decorator",
   "description": "Function decorator to defer its call",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "decorator",
     "defer",

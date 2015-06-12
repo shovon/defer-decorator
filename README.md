@@ -43,7 +43,7 @@ var firesEvent = defer(function () {
 This library becomes especially useful with ES7 decorators and classes:
 
 ```javascript
-import deferred from './src';
+import deferred from 'defer-decorator';
 
 class MyClass {
   @deferred
