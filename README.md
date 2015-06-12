@@ -24,13 +24,13 @@ var firesEvent = defer(function () {
 
 Install `defer-decorator` using npm:
 
-```
+```shell
 npm install defer-decorator
 ```
 
 Then use it in your code like so:
 
-```
+```javascript
 var defer = require('defer-decorator');
 
 var firesEvent = defer(function () {
